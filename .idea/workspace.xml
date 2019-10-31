@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/compasion.py" line="265" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ce6b09-5b67-49e3-96cb-cc519c35a2c9" name="Default Changelist" comment="" />
+    <list default="true" id="e1ce6b09-5b67-49e3-96cb-cc519c35a2c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/compasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/res6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/res6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_file/项目甘特图(已自动还原).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out_file/项目甘特图(已自动还原).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/renewable.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable_comp.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/renewable_comp.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution" beforeDir="false" afterPath="$PROJECT_DIR$/solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,22 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Suppliers_MRCPSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="-1046">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#3#26#0" expanded="true" />
-                <element signature="e#1514#1711#0" />
-                <element signature="e#1782#4071#0" />
-                <element signature="e#4113#4445#0" />
-                <element signature="e#4521#6020#0" />
-                <element signature="e#6074#9108#0" />
-                <element signature="e#9162#9653#0" />
-                <element signature="e#9715#10853#0" />
-                <element signature="e#13893#15709#0" />
-                <element signature="e#15779#16507#0" />
+                <element signature="e#442#1536#0" />
+                <element signature="e#1612#1809#0" />
+                <element signature="e#1880#4169#0" />
+                <element signature="e#4211#4543#0" />
+                <element signature="e#4619#6118#0" />
+                <element signature="e#6172#9206#0" />
+                <element signature="e#9260#9751#0" />
+                <element signature="e#9813#10951#0" />
+                <element signature="e#10957#11004#0" />
+                <element signature="e#13991#15807#0" />
+                <element signature="e#15877#16605#0" />
               </folding>
             </state>
           </provider>
@@ -34,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GA_Suppliers_MRCPSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="485" selection-start-line="485" selection-end-line="485" />
+            <state relative-caret-position="2640">
+              <caret line="368" column="34" selection-start-line="368" selection-start-column="34" selection-end-line="368" selection-end-column="34" />
               <folding>
                 <element signature="e#17#33#0" expanded="true" />
                 <element signature="e#208#320#0" />
@@ -46,18 +66,26 @@
                 <element signature="e#4612#5691#0" />
                 <element signature="e#5737#7276#0" />
                 <element signature="e#7319#7983#0" />
-                <element signature="e#8031#9495#0" />
                 <element signature="e#9547#11691#0" />
+                <element signature="e#11733#18117#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/../论文/moead-py-master/BB_TSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="1920">
+              <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+                <element signature="e#525#702#0" />
+                <element signature="e#839#1108#0" />
+                <element signature="e#1129#1160#0" />
+                <element signature="e#1182#1353#0" />
+                <element signature="e#1375#2089#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="8" />
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/j141_8.mm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="38" selection-start-line="38" selection-end-line="81" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -74,16 +111,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="308" column="23" selection-start-line="308" selection-start-column="23" selection-end-line="308" selection-end-column="23" />
+            <state relative-caret-position="7800">
+              <caret line="268" column="42" selection-start-line="268" selection-start-column="42" selection-end-line="268" selection-end-column="42" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
-                <element signature="e#287#1285#0" />
-                <element signature="e#1361#1558#0" />
-                <element signature="e#1629#3945#0" />
-                <element signature="e#4006#4802#0" />
-                <element signature="e#4886#5854#0" />
-                <element signature="e#5892#11657#0" />
               </folding>
             </state>
           </provider>
@@ -92,20 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/best.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solve.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#3#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -138,6 +157,9 @@
       <find>ins</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -150,26 +172,30 @@
         <option value="$PROJECT_DIR$/solution.txt" />
         <option value="$PROJECT_DIR$/data_read_MRCPSP.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/solution" />
         <option value="$PROJECT_DIR$/GA_Suppliers_MRCPSP.py" />
-        <option value="$PROJECT_DIR$/compasion.py" />
         <option value="$PROJECT_DIR$/Suppliers_MRCPSP.py" />
         <option value="$PROJECT_DIR$/solve.py" />
+        <option value="$PROJECT_DIR$/../Haier/safety_inventory.py" />
+        <option value="$PROJECT_DIR$/solution" />
+        <option value="$PROJECT_DIR$/compasion.py" />
+        <option value="$PROJECT_DIR$/../论文/moead-py-master/BB_TSP.py" />
+        <option value="$PROJECT_DIR$/../Haier(2)/Haier/Haier.py" />
+        <option value="$PROJECT_DIR$/../海尔/模型及求解/模型二.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="987" />
-    <option name="y" value="63" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="600" />
+    <option name="y" value="135" />
     <option name="width" value="1269" />
-    <option name="height" value="1032" />
+    <option name="height" value="1029" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,18 +203,16 @@
               <item name="Supplier_MRCPSP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Supplier_MRCPSP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Supplier_MRCPSP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Supplier_MRCPSP" type="462c0819:PsiDirectoryNode" />
-              <item name="out_file" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -206,8 +230,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solve">
-    <configuration name="GA_Suppliers_MRCPSP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.模型二">
+    <configuration name="模型二" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Supplier_MRCPSP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,12 +239,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../海尔/模型及求解" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GA_Suppliers_MRCPSP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../海尔/模型及求解/模型二.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Suppliers_MRCPSP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BB_TSP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Supplier_MRCPSP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,12 +261,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../论文/moead-py-master" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suppliers_MRCPSP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../论文/moead-py-master/BB_TSP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Haier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Supplier_MRCPSP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Haier(2)/Haier" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Haier(2)/Haier/Haier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Supplier_MRCPSP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Haier(2)/Haier" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Haier(2)/Haier/Try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,57 +341,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solve" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Supplier_MRCPSP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solve.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Supplier_MRCPSP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solve" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.模型二" />
+        <item itemvalue="Python.Haier" />
+        <item itemvalue="Python.Try" />
+        <item itemvalue="Python.BB_TSP" />
         <item itemvalue="Python.compasion" />
-        <item itemvalue="Python.GA_Suppliers_MRCPSP" />
-        <item itemvalue="Python.Suppliers_MRCPSP" />
       </list>
     </recent_temporary>
   </component>
@@ -360,12 +384,25 @@
       <workItem from="1571547982289" duration="1989000" />
       <workItem from="1571579652309" duration="901000" />
       <workItem from="1571622259711" duration="33365000" />
-      <workItem from="1571707809898" duration="5215000" />
+      <workItem from="1571707809898" duration="18408000" />
+      <workItem from="1571794150306" duration="593000" />
+      <workItem from="1571818583270" duration="8460000" />
+      <workItem from="1571882583493" duration="14378000" />
+      <workItem from="1571967633594" duration="1305000" />
+      <workItem from="1572486791975" duration="631000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1571714670004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571714670004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293660000" />
+    <option name="totallyTimeSpent" value="332220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,15 +414,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.2174616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.17219079" />
       <window_info id="Structure" order="1" sideWeight="0.5014245" side_tool="true" weight="0.15278901" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32854578" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38420108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,19 +465,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$Suppliers_MRCPSP.coverage" NAME="Suppliers_MRCPSP Coverage Results" MODIFIED="1571659673961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Supplier_MRCPSP$1.coverage" NAME="优化模型1可视化交互界面 Coverage Results" MODIFIED="1569410093611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../海尔/海尔中期_课题三/模型及求解" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$.coverage" NAME="绘图区域设计 Coverage Results" MODIFIED="1570457333746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/BaiduNetdiskDownload/data_cope/matplolib库" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$_16.coverage" NAME="箱型_16 Coverage Results" MODIFIED="1569231085826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../论文/第二模型对比算法/j14" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$.coverage" NAME="模型二 Coverage Results" MODIFIED="1571928575672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../海尔/模型及求解" />
     <SUITE FILE_PATH="coverage/Supplier_MRCPSP$test.coverage" NAME="test Coverage Results" MODIFIED="1571713455317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$picture.coverage" NAME="picture Coverage Results" MODIFIED="1570449167337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../论文/第二模型对比算法/j14" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$solve.coverage" NAME="solve Coverage Results" MODIFIED="1571713461335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$GA_Suppliers_MRCPSP.coverage" NAME="GA_Suppliers_MRCPSP Coverage Results" MODIFIED="1571708656613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Supplier_MRCPSP$to_excel.coverage" NAME="to_excel Coverage Results" MODIFIED="1570189754200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Supplier_MRCPSP$setup.coverage" NAME="setup Coverage Results" MODIFIED="1569501901158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/pyecharts-master" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$Suppliers_MRCPSP.coverage" NAME="Suppliers_MRCPSP Coverage Results" MODIFIED="1571659673961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$BB_TSP.coverage" NAME="BB_TSP Coverage Results" MODIFIED="1571905640264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../论文/moead-py-master" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$_16.coverage" NAME="箱型_16 Coverage Results" MODIFIED="1569231085826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../论文/第二模型对比算法/j14" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$Haier.coverage" NAME="Haier Coverage Results" MODIFIED="1571924145395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Haier(2)/Haier" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$picture.coverage" NAME="picture Coverage Results" MODIFIED="1570449167337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../论文/第二模型对比算法/j14" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$solve.coverage" NAME="solve Coverage Results" MODIFIED="1571731717787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$Try.coverage" NAME="Try Coverage Results" MODIFIED="1571923949440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Haier(2)/Haier" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$GA_Suppliers_MRCPSP.coverage" NAME="GA_Suppliers_MRCPSP Coverage Results" MODIFIED="1571708656613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Supplier_MRCPSP$picture_draw.coverage" NAME="picture_draw Coverage Results" MODIFIED="1569503653724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$compasion.coverage" NAME="compasion Coverage Results" MODIFIED="1571713205202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Supplier_MRCPSP$compasion.coverage" NAME="compasion Coverage Results" MODIFIED="1571897856277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../论文/第二模型对比算法/j14/箱型_16.py">
@@ -575,50 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/j141_8.mm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_read_MRCPSP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out_file/res1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compasion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="308" column="23" selection-start-line="308" selection-start-column="23" selection-end-line="308" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-            <element signature="e#287#1285#0" />
-            <element signature="e#1361#1558#0" />
-            <element signature="e#1629#3945#0" />
-            <element signature="e#4006#4802#0" />
-            <element signature="e#4886#5854#0" />
-            <element signature="e#5892#11657#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/best.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -635,36 +638,96 @@
     <entry file="file://$PROJECT_DIR$/inventory_consump.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution">
+    <entry file="file://$PROJECT_DIR$/out_file/res1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Haier/safety_inventory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="8" />
+        <state relative-caret-position="270">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#3#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Haier(2)/Haier/Try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4140">
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/scipy/optimize/_linprog_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="812" selection-start-line="812" selection-end-line="812" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../海尔/模型及求解/模型二.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+          <folding>
+            <element signature="e#2#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Haier(2)/Haier/Haier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#380#2167#0" />
+            <element signature="e#4430#7115#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Suppliers_MRCPSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="-1046">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#3#26#0" expanded="true" />
-            <element signature="e#1514#1711#0" />
-            <element signature="e#1782#4071#0" />
-            <element signature="e#4113#4445#0" />
-            <element signature="e#4521#6020#0" />
-            <element signature="e#6074#9108#0" />
-            <element signature="e#9162#9653#0" />
-            <element signature="e#9715#10853#0" />
-            <element signature="e#13893#15709#0" />
-            <element signature="e#15779#16507#0" />
+            <element signature="e#442#1536#0" />
+            <element signature="e#1612#1809#0" />
+            <element signature="e#1880#4169#0" />
+            <element signature="e#4211#4543#0" />
+            <element signature="e#4619#6118#0" />
+            <element signature="e#6172#9206#0" />
+            <element signature="e#9260#9751#0" />
+            <element signature="e#9813#10951#0" />
+            <element signature="e#10957#11004#0" />
+            <element signature="e#13991#15807#0" />
+            <element signature="e#15877#16605#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GA_Suppliers_MRCPSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="485" selection-start-line="485" selection-end-line="485" />
+        <state relative-caret-position="2640">
+          <caret line="368" column="34" selection-start-line="368" selection-start-column="34" selection-end-line="368" selection-end-column="34" />
           <folding>
             <element signature="e#17#33#0" expanded="true" />
             <element signature="e#208#320#0" />
@@ -675,19 +738,55 @@
             <element signature="e#4612#5691#0" />
             <element signature="e#5737#7276#0" />
             <element signature="e#7319#7983#0" />
-            <element signature="e#8031#9495#0" />
             <element signature="e#9547#11691#0" />
+            <element signature="e#11733#18117#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solve.py">
+    <entry file="file://$PROJECT_DIR$/../论文/moead-py-master/BB_TSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1920">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
           <folding>
-            <element signature="e#3#26#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#525#702#0" />
+            <element signature="e#839#1108#0" />
+            <element signature="e#1129#1160#0" />
+            <element signature="e#1182#1353#0" />
+            <element signature="e#1375#2089#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/j141_8.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="38" selection-start-line="38" selection-end-line="81" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7800">
+          <caret line="268" column="42" selection-start-line="268" selection-start-column="42" selection-end-line="268" selection-end-column="42" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/best.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>

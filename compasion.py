@@ -17,7 +17,7 @@ class Instance():
         self.job_model_resource={1:{1:[0 for _ in range(8)],2:[0 for _ in range(8)],3:[0 for _ in range(8)]},16:{1:[0 for _ in range(8)],2:[0 for _ in range(8)],3:[0 for _ in range(8)]}}
         self.job_model_duration={1:{1:0,2:0,3:0},16:{1:0,2:0,3:0}}
         self.Lead_time_E=[2,3,2,4,2,3,4]
-        # self.Lead_time_0=[1+random.random() for _ in range(7)]
+        self.Lead_time_0 = [1.596287439804636, 1.2806260440591148, 1.5897067275742427, 1.091564721558271,1.3053531642763252, 1.385663738387799, 1.498642774983689]
         self.resource_capacity=[]
         self.number_job =None
         self.number_renewable_resources = None
@@ -167,7 +167,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0,len(x),2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -184,7 +184,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -201,7 +201,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -218,7 +218,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -235,7 +235,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -252,7 +252,7 @@ class Instance():
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
 
-            plt.tick_params(labelsize=8)
+            plt.tick_params(labelsize=10)
             labels = ax1.get_xticklabels() + ax1.get_yticklabels()
             [label.set_fontname('Times New Roman') for label in labels]
 
@@ -263,6 +263,31 @@ class Instance():
             plt.show()
 
 
+    def ruba_com(self,buffer1,buffer2,M,suppliers):
+        ruba_totall=0
+        delta_list = []
+        for job in range(self.number_job):
+            delta_temp=[0]
+            re_count=0
+            for re in self.job_model_resource[job+1][M[job]][2:]:
+                if re!=0:
+                    s=suppliers[re_count]
+                    a = self.Lead_time_0[s - 1]
+                    delta_temp.append(a)
+                re_count+= 1
+
+            delta_i = max(delta_temp)
+            ruba_totall += delta_i
+            delta_list.append(delta_i)
+        ind_ruba_origin=0
+        ind_ruba_comp=0
+        for i in range(self.number_job):
+            ind_ruba_origin+=buffer1[i]*delta_list[i]
+            ind_ruba_comp += buffer2[i] * delta_list[i]
+
+        print("ind_ruba_origin",ind_ruba_origin)
+        print("ind_ruba_comp",ind_ruba_comp)
+        print((ind_ruba_origin-ind_ruba_comp)/ind_ruba_comp)
 
 
 ins=Instance()
@@ -284,8 +309,6 @@ print(a)
 print(b)
 print(c)
 print(d)
-r1=[11, 11, 11, 11, 11, 9, 11, 11, 11, 11, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10]
-r2=[7, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 10, 10, 3, 3, 5, 5, 5, 5, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
 """
 """
 starttime=[0, 14, 4, 9, 19, 1, 28, 0, 2, 25, 14, 30, 0, 38, 50, 56]
@@ -298,23 +321,28 @@ print(r1)
 print(r2)
 """
 
-supplier= [1, 2, 5, 7, 2, 3]
-order =[1, 9, 3, 11, 4, 5, 2, 6, 8, 10, 13, 7, 14, 12, 15, 16]
-M =[1, 2, 3, 2, 3, 2, 2, 2, 2, 1, 1, 1, 3, 3, 3, 2]
-starttime =[0, 14, 4, 1, 2, 24, 31, 10, 2, 29, 1, 41, 0, 34, 44, 58]
-finishtime =[0, 24, 14, 10, 9, 29, 37, 14, 6, 31, 3, 45, 5, 42, 54, 58]
-duration= [0, 10, 10, 9, 7, 5, 6, 4, 4, 2, 2, 4, 5, 8, 10, 0]
-order_time =[['NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN'], [-2, 'NaN', -2, 'NaN', 'NaN', 12], [-2, 'NaN', 'NaN', 0, -3, 'NaN'], ['NaN', -2, -2, 'NaN', 'NaN', -1], ['NaN', -2, 'NaN', 'NaN', -3, -1], ['NaN', 21, 'NaN', 'NaN', 21, 22], ['NaN', 21, 'NaN', 'NaN', 21, 22], [-2, 'NaN', -2, 0, 'NaN', 'NaN'], [-2, 'NaN', 'NaN', 'NaN', -3, -1], [-2, 'NaN', 27, 'NaN', 'NaN', 22], [-2, 'NaN', -2, 'NaN', -3, 'NaN'], ['NaN', 38, 'NaN', 37, 'NaN', 39], [-2, 'NaN', -2, 'NaN', -3, 'NaN'], ['NaN', 31, 'NaN', 'NaN', 'NaN', 'NaN'], [42, 'NaN', 'NaN', 37, 'NaN', 39], ['NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN']]
+supplier =[1, 2, 5, 7, 6, 3]
+order= [1, 6, 13, 11, 9, 3, 8, 2, 4, 5, 10, 14, 15, 7, 12, 16]
+M =[1, 2, 1, 3, 3, 2, 2, 3, 3, 3, 1, 3, 3, 3, 3, 1]
+starttime= [0, 14, 3, 3, 13, 3, 27, 8, 3, 24, 1, 37, 2, 35, 47, 61]
+finishtime= [0, 24, 8, 13, 20, 8, 33, 14, 9, 34, 3, 46, 7, 43, 57, 61]
+duration= [0, 10, 5, 10, 7, 5, 6, 6, 6, 10, 2, 9, 5, 8, 10, 0]
+order_time= [['NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN'], [-1, 'NaN', -1, 'NaN', 'NaN', 11], [-1, 0, 'NaN', -1, 'NaN', 'NaN'], ['NaN', 0, 'NaN', 'NaN', -2, 1], ['NaN', 10, 'NaN', 'NaN', -2, 11], ['NaN', 0, 'NaN', 'NaN', -2, 1], ['NaN', 21, 'NaN', 'NaN', 21, 22], ['NaN', 0, 'NaN', -1, 'NaN', 1], [-1, 'NaN', 'NaN', -1, -2, 'NaN'], ['NaN', 21, 'NaN', 'NaN', 21, 22], [-1, 'NaN', -1, 'NaN', -2, 'NaN'], [35, 32, 'NaN', 33, 'NaN', 'NaN'], [-1, 'NaN', -1, 'NaN', -2, 'NaN'], ['NaN', 32, 'NaN', 'NaN', 'NaN', 'NaN'], [35, 'NaN', 'NaN', 33, 'NaN', 45], ['NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN']]
 
 # for job in range(16):
 #     if order_time[job][1]!='NaN':
 #         print("job","M","re","ordertime","st","ft")
 #         print(job+1,M[job],ins.job_model_resource[job+1][M[job]][3],order_time[job][1],starttime[job],finishtime[job])
 
-inven=ins.inventory_consump(starttime,finishtime,order_time,M,supplier)
+# inven=ins.inventory_consump(starttime,finishtime,order_time,M,supplier)
+#
+# ins.pylot(inven)
 
-ins.pylot(inven)
+buffer1=[0,3,5,9,4,0,4,23,26,1,0,11,40,4,0,0]
+buffer2=[0,0,5,7,0,0,0,16,21,0,4,9,30,0,0,0]
+suppliers=[1,2,5,7,6,3]
 
+ins.ruba_com(buffer1,buffer2,M,suppliers)
 
 # a,b,c,d=ins.job_start_time(order,M)
 # print(a)
@@ -325,8 +353,8 @@ ins.pylot(inven)
 # e=[c,d]
 # data=pd.DataFrame(e)
 # data.to_excel("renewable_comp.xlsx")
-
-
+#
+#
 # a,b=ins.resource(starttime,M)
 # e=[a,b]
 # data=pd.DataFrame(e)

@@ -17,7 +17,7 @@ def main(file):
     instance.loadData(file_project=f_p, file_CNfks=f_CN, file_Ofs=f_O, file_qfs=qfs)
     supplier=instance.initial_Supplier()
 
-    for i in range(100):
+    for i in range(500):
         ind=GA_Suppliers_MRCPSP.GA_RCPSP_ruba(instance,100,supplier)
         # sup,ind=GA_Suppliers_MRCPSP.GA_RCPSP_cost(instance,1,ind,i)
         sup, ind = GA_Suppliers_MRCPSP.Greedy_cost(instance, ind)
