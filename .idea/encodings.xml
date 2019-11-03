@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/J16/best.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J16/solution" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J18/solution" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J20/best.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J20/best.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J20/solution" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J30/best.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J30/solution" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/J4/best.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/best.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/best.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/best.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/best.txt_J16" charset="GBK" />
     <file url="file://$PROJECT_DIR$/solution" charset="GBK" />
     <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/solution.txt" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

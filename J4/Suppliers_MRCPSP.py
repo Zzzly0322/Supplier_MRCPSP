@@ -27,7 +27,7 @@ class Instance():
         self.job_model_resource={1:{1:[0 for _ in range(8)],2:[0 for _ in range(8)],3:[0 for _ in range(8)]},16:{1:[0 for _ in range(8)],2:[0 for _ in range(8)],3:[0 for _ in range(8)]}}
         self.job_model_duration={1:{1:0,2:0,3:0},16:{1:0,2:0,3:0}}
         self.Lead_time_E=[2,3,2,4,2,3,4]
-        self.Lead_time_0=[1.7240017963731518, 2.5180592950582943, 1.8028561592656198, 2.5606840145616174, 1.9824197339509033, 2.6732599430964097, 2.554509552333447]
+        self.Lead_time_0=[2.364793499419341, 3.590722183867771, 2.5540486141093632, 4.368226030629229, 2.316351827116401, 3.0796935154386236, 3.706033524317347]
         self.resource_capacity=[]
         self.number_job =None
         self.number_renewable_resources = None
@@ -48,7 +48,7 @@ class Instance():
 
         self.best_ind=[]
         self.best_sup=[]
-
+        self.time=[]
     def loadData(self,file_project,file_CNfks,file_Ofs,file_qfs):
         data_read_MRCPSP.dataStore(self, file_project)
         data_read_MRCPSP.read_CNfks(self,file_CNfks)
