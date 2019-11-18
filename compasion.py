@@ -161,8 +161,8 @@ class Instance():
 
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y0, '-.', c='#030303', label='资源-"0"', linewidth=1)  # 绘制折线图像1,圆形点，标签，线宽
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y0, '-.', c='#030303', label='资源-"1"', linewidth=1)  # 绘制折线图像1,圆形点，标签，线宽
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0,len(x),2))
@@ -178,8 +178,8 @@ class Instance():
             plt.show()
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y1, '*-.', c='#FF8C00', label='资源-"1"', linewidth=1)
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y1, '*-.', c='#FF8C00', label='资源-"2"', linewidth=1)
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
@@ -195,8 +195,8 @@ class Instance():
             plt.show()
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y2, 'd--', c='r', label='资源-"2"', linewidth=1)
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y2, 'd--', c='r', label='资源-"3"', linewidth=1)
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
@@ -212,8 +212,8 @@ class Instance():
             plt.show()
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y3, 'v:', c='b', label='资源-"3"', linewidth=1)
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y3, 'v:', c='b', label='资源-"4"', linewidth=1)
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
@@ -229,8 +229,8 @@ class Instance():
             plt.show()
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y4, '*-.', c='#8968CD', label='资源-"4"', linewidth=1)
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y4, '*-.', c='#8968CD', label='资源-"5"', linewidth=1)
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
@@ -246,8 +246,8 @@ class Instance():
             plt.show()
         if True:
             fig, ax1 = plt.subplots()  # 使用subplots()创建窗口
-            ax1.plot(x, y5, 'd--', c='#8B4726', label='资源-"5"', linewidth=1)
-            mp.legend(loc=1, fontsize=8)
+            ax1.plot(x, y5, 'd--', c='#8B4726', label='资源-"6"', linewidth=1)
+            mp.legend(loc=1, fontsize=16)
             ax1.set_xlabel('时间', size=16)
             ax1.set_ylabel('库存状态', size=16)
             ax1.set_xticks(range(0, len(x), 2))
@@ -334,15 +334,15 @@ order_time= [['NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN'], [-1, 'NaN', -1, 'NaN', 
 #         print("job","M","re","ordertime","st","ft")
 #         print(job+1,M[job],ins.job_model_resource[job+1][M[job]][3],order_time[job][1],starttime[job],finishtime[job])
 
-# inven=ins.inventory_consump(starttime,finishtime,order_time,M,supplier)
-#
-# ins.pylot(inven)
+inven=ins.inventory_consump(starttime,finishtime,order_time,M,supplier)
+
+ins.pylot(inven)
 
 buffer1=[0,3,5,9,4,0,4,23,26,1,0,11,40,4,0,0]
 buffer2=[0,0,5,7,0,0,0,16,21,0,4,9,30,0,0,0]
 suppliers=[1,2,5,7,6,3]
 
-ins.ruba_com(buffer1,buffer2,M,suppliers)
+# ins.ruba_com(buffer1,buffer2,M,suppliers)
 
 # a,b,c,d=ins.job_start_time(order,M)
 # print(a)
